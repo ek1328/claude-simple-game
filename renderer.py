@@ -5,6 +5,7 @@ from game import GameState
 
 
 class Renderer:
+
     def __init__(self, screen):
         self.screen = screen
         self.font_large = pygame.font.SysFont("monospace", 28, bold=True)
