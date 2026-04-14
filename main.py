@@ -25,6 +25,8 @@ def main():
                 running = False
 
         game.update(dt, events)
+        if game.quit_requested:
+            break
         renderer.draw(game, dt)
         pygame.display.flip()
 
