@@ -96,10 +96,16 @@ class PacMan:
             return
 
         if self.maze.is_wall_for_pacman(next_col, next_row):
-            if self._at_tile_center():
-                cx, cy = self.maze.tile_to_pixel(col, row)
-                self.x = float(cx)
-                self.y = float(cy)
+            # Glide back to tile center at normal speed so the player can turn
+            cx, cy = self.maze.tile_to_pixel(col, row)
+            if abs(self.x - cx) > PACMAN_SPEED:
+                self.x += math.copysign(PACMAN_SPEED, cx - self.x)
+            else:
+                self.x = cx
+            if abs(self.y - cy) > PACMAN_SPEED:
+                self.y += math.copysign(PACMAN_SPEED, cy - self.y)
+            else:
+                self.y = cy
         else:
             self.x += dx * pixels
             self.y += dy * pixels
