@@ -75,7 +75,7 @@ TUNNEL_ROWS = {13, 14}
 GHOST_HOUSE_ENTRANCE = (13, 11)
 
 # Pac-Man spawn
-PACMAN_SPAWN = (13, 23)
+PACMAN_SPAWN = (13, 22)  # EMPTY tile with left/right corridors
 
 # Ghost spawns (col, row) and initial direction
 GHOST_SPAWNS = {

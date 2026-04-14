@@ -53,6 +53,7 @@ class Ghost:
         self.flash_timer = 0.0
         self.prev_mode = GhostMode.SCATTER
         self.house_bounce_dir = 1
+        self.last_decision_tile = None
 
     def get_tile(self):
         col = int(self.x) // TILE_SIZE
@@ -141,10 +142,12 @@ class Ghost:
         self.frightened_timer = FRIGHTENED_DURATION
         self.flash_toggle = False
         self.flash_timer = 0.0
+        self.last_decision_tile = None  # allow immediate direction reconsideration
 
     def end_frightened(self):
         if self.mode == GhostMode.FRIGHTENED:
             self.mode = self.prev_mode
+            self.last_decision_tile = None
 
     def set_mode(self, new_mode):
         """Called by game for scatter/chase phase transitions."""
@@ -155,6 +158,7 @@ class Ghost:
             self.mode = new_mode
             # Reverse direction on mode change (classic behavior)
             self.direction = (-self.direction[0], -self.direction[1])
+            self.last_decision_tile = None
 
     def update(self, dt, pacman, blinky, dots_eaten):
         # Handle release from ghost house
@@ -208,12 +212,14 @@ class Ghost:
                 self.release_dots = 0  # re-release immediately
                 return
 
-        # Normal movement: decide direction at tile centers
-        if self._at_tile_center():
+        # Normal movement: decide direction once per tile center
+        current_tile = self.get_tile()
+        if self._at_tile_center() and current_tile != self.last_decision_tile:
             self._snap_to_tile()
-            col, row = self.get_tile()
+            col, row = current_tile
             target = self._get_target(pacman, blinky)
             self.direction = self._choose_direction(col, row, target)
+            self.last_decision_tile = current_tile
 
         # Move
         speed = self.get_speed()
