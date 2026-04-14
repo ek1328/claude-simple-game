@@ -8,6 +8,8 @@ class GameState:
     START = 'start'
     READY = 'ready'
     PLAYING = 'playing'
+    PAUSED = 'paused'
+    QUIT_CONFIRM = 'quit_confirm'
     PACMAN_DEAD = 'pacman_dead'
     LEVEL_CLEAR = 'level_clear'
     GAME_OVER = 'game_over'
@@ -31,6 +33,8 @@ class Game:
         self.extra_life_awarded = False
 
         self.state = GameState.START
+        self.pre_pause_state = None   # state to restore after unpausing
+        self.quit_requested = False   # signal main loop to exit
         self.ready_timer = 0.0
         self.death_timer = 0.0
         self.level_clear_timer = 0.0
@@ -45,10 +49,33 @@ class Game:
 
     def update(self, dt, events):
         import pygame
+
+        # Global hotkeys — work from any active game state
+        active = self.state in (GameState.PLAYING, GameState.PAUSED,
+                                GameState.QUIT_CONFIRM, GameState.READY)
+        for event in events:
+            if event.type == pygame.KEYDOWN:
+                if active and event.key == pygame.K_p:
+                    self._toggle_pause()
+                elif active and event.key == pygame.K_q:
+                    self._open_quit_confirm()
+
         if self.state == GameState.START:
             for event in events:
                 if event.type == pygame.KEYDOWN and event.key in (pygame.K_SPACE, pygame.K_RETURN):
                     self._start_game()
+
+        elif self.state == GameState.PAUSED:
+            pass  # P is handled above; nothing else updates while paused
+
+        elif self.state == GameState.QUIT_CONFIRM:
+            for event in events:
+                if event.type == pygame.KEYDOWN:
+                    if event.key in (pygame.K_y, pygame.K_RETURN):
+                        self.quit_requested = True
+                    elif event.key in (pygame.K_n, pygame.K_ESCAPE, pygame.K_p):
+                        # Cancel — return to wherever we were
+                        self.state = self.pre_pause_state or GameState.PLAYING
 
         elif self.state == GameState.READY:
             self.ready_timer -= dt
@@ -84,6 +111,22 @@ class Game:
                     self._restart()
 
     # ── Internal helpers ──────────────────────────────────────────────────────
+
+    def _toggle_pause(self):
+        if self.state == GameState.QUIT_CONFIRM:
+            return  # don't toggle while confirm dialog is open
+        if self.state == GameState.PAUSED:
+            self.state = self.pre_pause_state
+            self.pre_pause_state = None
+        else:
+            self.pre_pause_state = self.state
+            self.state = GameState.PAUSED
+
+    def _open_quit_confirm(self):
+        if self.state != GameState.QUIT_CONFIRM:
+            if self.state != GameState.PAUSED:
+                self.pre_pause_state = self.state
+            self.state = GameState.QUIT_CONFIRM
 
     def _start_game(self):
         self.score = 0

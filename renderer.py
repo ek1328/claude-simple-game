@@ -33,6 +33,20 @@ class Renderer:
             for g in game.ghosts:
                 g.draw(self.screen)
             self._draw_hud(game)
+        elif game.state == GameState.PAUSED:
+            self._draw_maze(game.maze, flash=False)
+            self._draw_pacman(game.pacman)
+            for g in game.ghosts:
+                g.draw(self.screen)
+            self._draw_hud(game)
+            self._draw_pause_screen()
+        elif game.state == GameState.QUIT_CONFIRM:
+            self._draw_maze(game.maze, flash=False)
+            self._draw_pacman(game.pacman)
+            for g in game.ghosts:
+                g.draw(self.screen)
+            self._draw_hud(game)
+            self._draw_quit_confirm()
         elif game.state == GameState.PACMAN_DEAD:
             self._draw_maze(game.maze, flash=False)
             for g in game.ghosts:
@@ -145,6 +159,30 @@ class Renderer:
         restart = self.font_med.render("Press SPACE to Play Again", True, (180, 180, 180))
         self.screen.blit(restart, (SCREEN_W // 2 - restart.get_width() // 2,
                                     SCREEN_H // 2 + 55))
+
+    def _draw_pause_screen(self):
+        overlay = pygame.Surface((SCREEN_W, SCREEN_H), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 150))
+        self.screen.blit(overlay, (0, 0))
+        self._draw_text_centered("PAUSED", self.font_large, YELLOW, SCREEN_H // 2 - 30)
+        self._draw_text_centered("P  — Resume", self.font_med, WHITE, SCREEN_H // 2 + 10)
+        self._draw_text_centered("Q  — Quit", self.font_med, (180, 180, 180), SCREEN_H // 2 + 36)
+
+    def _draw_quit_confirm(self):
+        overlay = pygame.Surface((SCREEN_W, SCREEN_H), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 170))
+        self.screen.blit(overlay, (0, 0))
+
+        # Dialog box
+        box_w, box_h = 320, 130
+        box_x = SCREEN_W // 2 - box_w // 2
+        box_y = SCREEN_H // 2 - box_h // 2
+        pygame.draw.rect(self.screen, (40, 40, 40), (box_x, box_y, box_w, box_h), border_radius=8)
+        pygame.draw.rect(self.screen, WHITE, (box_x, box_y, box_w, box_h), width=2, border_radius=8)
+
+        self._draw_text_centered("Quit to desktop?", self.font_med, WHITE, box_y + 20)
+        self._draw_text_centered("Y / Enter  —  Yes, quit", self.font_small, (255, 100, 100), box_y + 58)
+        self._draw_text_centered("N / Esc      —  No, resume", self.font_small, (100, 255, 100), box_y + 82)
 
     def _draw_text_centered(self, text, font, color, y):
         surf = font.render(text, True, color)
