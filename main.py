@@ -22,7 +22,11 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                running = False
+                # Only quit directly from the start/game-over screens;
+                # during play, ESC is handled by the quit-confirm dialog.
+                from game import GameState
+                if game.state in (GameState.START, GameState.GAME_OVER):
+                    running = False
 
         game.update(dt, events)
         if game.quit_requested:
