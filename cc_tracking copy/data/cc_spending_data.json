@@ -1,0 +1,1006 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2026-04-13",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "BEA MATERAI LUNAS",
+      "amount": 10000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "NOTIFICATION FEE 0231",
+      "amount": 5000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 3,
+      "date": "2026-03-16",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "POLISK-HO BATAM",
+      "amount": 386000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 4,
+      "date": "2026-03-17",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SOCIOLLA GRAND BATAM BATAM",
+      "amount": 217319.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 5,
+      "date": "2026-03-17",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "BD NAIL GB BATAM",
+      "amount": 257500.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 6,
+      "date": "2026-03-18",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "HOT CRUSH KUALA LUMPUR",
+      "amount": 329444.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 7,
+      "date": "2026-03-18",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AGODA.COM Internet",
+      "amount": 2972234.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 8,
+      "date": "2026-03-18",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AGODA.COM Internet",
+      "amount": 2972234.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 9,
+      "date": "2026-03-19",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "TFM-PAVILION KL KUALA LUMPUR",
+      "amount": 392036.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 10,
+      "date": "2026-03-19",
+      "card": "Panin",
+      "category": "\ud83c\udfe5 Health",
+      "merchant": "AA PHARMACY-BKT BTG KUALA LUMPUR",
+      "amount": 784073.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 11,
+      "date": "2026-03-20",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SKECHERS-TRX KUALA LUMPUR",
+      "amount": 1136949.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 12,
+      "date": "2026-03-21",
+      "card": "Panin",
+      "category": "\ud83c\udf7d\ufe0f Food & Dining",
+      "merchant": "EMPIRE SUSHI KLCC KUALA LUMPUR",
+      "amount": 49165.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 13,
+      "date": "2026-03-21",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "HYATT CENTRIC CITY CENTR KUALA LUMPUR",
+      "amount": 116328.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 14,
+      "date": "2026-03-21",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "KENNY HILLS KLCC KUALA LUMPUR",
+      "amount": 144203.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 15,
+      "date": "2026-03-21",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "VINCCI-KLCC KUALA LUMPUR",
+      "amount": 435903.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 16,
+      "date": "2026-03-26",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "DOKU*STARLINK NON 3DS JAKARTA SELATIDN",
+      "amount": 750000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 17,
+      "date": "2026-03-27",
+      "card": "Panin",
+      "category": "\ud83d\udcda Education",
+      "merchant": "TB GRAMEDIA BATAM CS 165 Batam (Kota)",
+      "amount": 467400.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 18,
+      "date": "2026-03-28",
+      "card": "Panin",
+      "category": "\ud83c\udfe5 Health",
+      "merchant": "APOTEK JAYA FARMA-HO BATAM",
+      "amount": 624000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 19,
+      "date": "2026-04-02",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "Netflix.com Los Gatos",
+      "amount": 120000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 20,
+      "date": "2026-04-03",
+      "card": "Panin",
+      "category": "\ud83c\udfe0 Housing",
+      "merchant": "A334 AZKO NAGOYA BATAM BATAM",
+      "amount": 429800.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 21,
+      "date": "2026-04-10",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "SNL FOOD BATAM KOT.",
+      "amount": 351611.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 22,
+      "date": "2026-03-04",
+      "card": "BCA",
+      "category": "\ud83d\udecd\ufe0f Shopping",
+      "merchant": "TOKOPEDIA JAKARTA",
+      "amount": 1224700.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 23,
+      "date": "2026-03-05",
+      "card": "BCA",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 318920.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 24,
+      "date": "2026-03-06",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 39000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 25,
+      "date": "2026-03-04",
+      "card": "BCA",
+      "category": "\ud83d\udecd\ufe0f Shopping",
+      "merchant": "TOKOPEDIA JAKARTA",
+      "amount": 1368050.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 26,
+      "date": "2026-03-05",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 275000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 27,
+      "date": "2026-03-04",
+      "card": "BCA",
+      "category": "\ud83d\udecd\ufe0f Shopping",
+      "merchant": "TOKOPEDIA JAKARTA",
+      "amount": 413120.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 28,
+      "date": "2026-03-07",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 19000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 29,
+      "date": "2026-03-08",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "TOP 100 JALAN BAKAL BATAM",
+      "amount": 354000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 30,
+      "date": "2026-03-09",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "SENTOSA NIAGA LESTARI BATAM",
+      "amount": 442869.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 31,
+      "date": "2026-03-09",
+      "card": "BCA",
+      "category": "\u26fd Transport",
+      "merchant": "SPBU 11.294703,SEI BALO BATAM",
+      "amount": 602367.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 32,
+      "date": "2026-03-10",
+      "card": "BCA",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "GOOGLE YOUTUBEPREMIUM 650-2530000",
+      "amount": 76590.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 33,
+      "date": "2026-03-12",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "JODOH CENTRE, OBM BATAM",
+      "amount": 380200.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 34,
+      "date": "2026-03-14",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 88000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 35,
+      "date": "2026-03-14",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 96000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 36,
+      "date": "2026-03-14",
+      "card": "BCA",
+      "category": "\u26fd Transport",
+      "merchant": "SPBU 14.294738 ROSEDALE-HBATAM",
+      "amount": 265110.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 37,
+      "date": "2026-03-14",
+      "card": "BCA",
+      "category": "\u26fd Transport",
+      "merchant": "SPBU 11.294703,SEI BALO BATAM",
+      "amount": 380072.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 38,
+      "date": "2026-03-17",
+      "card": "BCA",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "CLAUDE.AI SUBSCRIPTION ANTHROPIC.COMUS",
+      "amount": 346825.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 39,
+      "date": "2026-03-18",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "SISTIC* INTERNET SINGAPORE",
+      "amount": 1548927.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 40,
+      "date": "2026-03-22",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 14000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 41,
+      "date": "2026-03-22",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 169000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 42,
+      "date": "2026-03-22",
+      "card": "BCA",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "ERAMAN KLIA SEPANG",
+      "amount": 1945422.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 43,
+      "date": "2026-03-21",
+      "card": "BCA",
+      "category": "\ud83c\udf7d\ufe0f Food & Dining",
+      "merchant": "MCDONALD'S-JLN P.RAMLEE KUALA LUMPUR",
+      "amount": 223656.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 44,
+      "date": "2026-03-23",
+      "card": "BCA",
+      "category": "\ud83d\udecd\ufe0f Shopping",
+      "merchant": "TOKOPEDIA JAKARTA",
+      "amount": 320000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 45,
+      "date": "2026-03-25",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 39000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 46,
+      "date": "2026-03-25",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "DIAMOND SPM,BATAM BATAM",
+      "amount": 297370.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 47,
+      "date": "2026-03-27",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 158000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 48,
+      "date": "2026-03-27",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "JODOH CENTRE SUPERMARKET BATAM",
+      "amount": 276381.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 49,
+      "date": "2026-03-27",
+      "card": "BCA",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "CKM.NORD VPNCOM",
+      "amount": 1238311.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 50,
+      "date": "2026-03-29",
+      "card": "BCA",
+      "category": "\ud83c\udfe0 Housing",
+      "merchant": "JACKSON'S HOMEWARE-HO BATAM",
+      "amount": 594500.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 51,
+      "date": "2026-03-31",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 7000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 52,
+      "date": "2026-04-01",
+      "card": "BCA",
+      "category": "\ud83c\udfac Entertainment",
+      "merchant": "APPLE.COM/BILL ITUNES.COM",
+      "amount": 83000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 53,
+      "date": "2026-04-01",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "TOP 100 JALAN BAKAL BATAM",
+      "amount": 737500.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 54,
+      "date": "2026-04-02",
+      "card": "BCA",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "SENTOSA NIAGA LESTARI BATAM",
+      "amount": 516258.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 55,
+      "date": "2026-04-03",
+      "card": "BCA",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "MAJESTIC FERRY BTC-HO BATAM",
+      "amount": 1590000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-04"
+    },
+    {
+      "id": 56,
+      "date": "2026-03-13",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "BEA MATERAI LUNAS",
+      "amount": 10000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 57,
+      "date": "2026-03-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "NOTIFICATION FEE 0231",
+      "amount": 5000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 58,
+      "date": "2026-02-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "REBORN GRAND BATAM-HO BATAM",
+      "amount": 208000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 59,
+      "date": "2026-02-14",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "TOP 100 GRAND BATAM BATAM",
+      "amount": 267000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 60,
+      "date": "2026-02-14",
+      "card": "Panin",
+      "category": "\ud83c\udfe5 Health",
+      "merchant": "BD NAIL GB BATAM",
+      "amount": 453200.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 61,
+      "date": "2026-02-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "MOREIS - HO BATAM",
+      "amount": 523260.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 62,
+      "date": "2026-02-16",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "TOP 100 JALAN BAKAL BATAM",
+      "amount": 239500.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 63,
+      "date": "2026-02-17",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 189999.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 64,
+      "date": "2026-02-22",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 357617.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 65,
+      "date": "2026-02-27",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "DOKU*STARLINK NON 3DS JAKARTA SELATIDN",
+      "amount": 750000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 66,
+      "date": "2026-03-01",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "LEVAIN CO BATAM KOT.",
+      "amount": 367000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 67,
+      "date": "2026-03-01",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AIRASIA_AK UIVLQX INDOESIA",
+      "amount": 5779000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 68,
+      "date": "2026-03-02",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "Netflix.com Los Gatos",
+      "amount": 120000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 69,
+      "date": "2026-03-02",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "MALINDO AIR - EC SEPANG",
+      "amount": 8596906.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 70,
+      "date": "2026-03-03",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 302201.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 71,
+      "date": "2026-03-03",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AGODA.COM Internet",
+      "amount": 13307807.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-03"
+    },
+    {
+      "id": 72,
+      "date": "2026-02-13",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "BEA MATERAI LUNAS",
+      "amount": 10000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 73,
+      "date": "2026-02-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "NOTIFICATION FEE 0231",
+      "amount": 5000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 74,
+      "date": "2026-01-14",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AGODA.COM ANATHERA R Internet",
+      "amount": 1012385.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 75,
+      "date": "2026-01-14",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "AGODA.COM CANDI BEAC Internet",
+      "amount": 1896941.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 76,
+      "date": "2026-01-14",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SINGAPOREAI 2472367949 SINGAPORE",
+      "amount": 8944626.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 77,
+      "date": "2026-01-15",
+      "card": "Panin",
+      "category": "\ud83c\udfe5 Health",
+      "merchant": "APOTEK JAYA FARMA-HO BATAM",
+      "amount": 148000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 78,
+      "date": "2026-01-15",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "SNL FOOD BATAM KOT.",
+      "amount": 215219.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 79,
+      "date": "2026-01-16",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "TEA EXPLORER PTE LTD SINGAPORE",
+      "amount": 130857.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 80,
+      "date": "2026-01-16",
+      "card": "Panin",
+      "category": "\u2708\ufe0f Travel",
+      "merchant": "MAJESTIC FERRY BTC-HO BATAM",
+      "amount": 2920000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 81,
+      "date": "2026-01-18",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "BALI CRISPIG HO BADUNG",
+      "amount": 460000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 82,
+      "date": "2026-01-18",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "HOLIDAY INN BALI SANUR DENPASAR",
+      "amount": 3400000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 83,
+      "date": "2026-01-20",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "OLD CHANG KEE Singapore",
+      "amount": 59064.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 84,
+      "date": "2026-01-20",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "DFS BALI Badung (Kab)",
+      "amount": 835000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 85,
+      "date": "2026-01-20",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "FP XTRA VIVO SINGAPORE",
+      "amount": 908519.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 86,
+      "date": "2026-01-20",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "DON DON DONKI - HFC SINGAPORE",
+      "amount": 1456476.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 87,
+      "date": "2026-01-26",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "XDT*XDT*DLO*STARLINK-S https://www.sIDN",
+      "amount": 750000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 88,
+      "date": "2026-01-28",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "KEKI HOUSE-HO BATAM",
+      "amount": 209000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 89,
+      "date": "2026-01-28",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 225156.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 90,
+      "date": "2026-01-31",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "TOP 100 GRAND BATAM BATAM",
+      "amount": 170000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 91,
+      "date": "2026-01-31",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "YAKINIKU LIKE GRANDBTM BATAM",
+      "amount": 654874.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 92,
+      "date": "2026-01-31",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "WRANGLER GRAND MALL BATA BATAM KOT.",
+      "amount": 1083620.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 93,
+      "date": "2026-01-31",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "FERENSSA-HO BATAM",
+      "amount": 1265000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 94,
+      "date": "2026-01-31",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "NE GRAND BATAM/NE91 BATAM",
+      "amount": 1926360.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 95,
+      "date": "2026-02-02",
+      "card": "Panin",
+      "category": "\ud83d\udcf1 Subscriptions",
+      "merchant": "Netflix.com Los Gatos",
+      "amount": 120000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 96,
+      "date": "2026-02-02",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "KEKI HOUSE-HO BATAM",
+      "amount": 147000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 97,
+      "date": "2026-02-03",
+      "card": "Panin",
+      "category": "\ud83c\udfe5 Health",
+      "merchant": "APOTEK JAYA FARMA-HO BATAM",
+      "amount": 289000.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 98,
+      "date": "2026-02-07",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 298610.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 99,
+      "date": "2026-02-09",
+      "card": "Panin",
+      "category": "\ud83d\uded2 Groceries",
+      "merchant": "SNL FOOD BATAM KOT.",
+      "amount": 296050.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    },
+    {
+      "id": 100,
+      "date": "2026-02-11",
+      "card": "Panin",
+      "category": "\ud83d\udcbc Other",
+      "merchant": "SUKSES NIAGA LESTARI PT BATAM",
+      "amount": 288605.0,
+      "note": "Imported from PDF",
+      "statement_month": "2026-02"
+    }
+    
+    
+  ]
+}
